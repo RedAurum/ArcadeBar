@@ -1,0 +1,158 @@
+/*Body and Navbar*/
+
+body {
+
+    background-color: #212529;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mainNavbar span {
+
+    color: red;
+
+}
+
+#mainNavbar li :hover {
+
+
+    color: white;
+
+}
+
+.carousel-caption h5 {
+
+    text-shadow: rgb(111, 255, 233) 2px 0 10px;
+
+}
+
+.carousel-caption p {
+
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1.20rem;
+    line-height: 1.5;
+
+}
+
+
+/*Food&Drink, text and eventual prices Page*/
+
+#menubackground {
+    
+    background-image: url("../images/wall.avif"); /*Background picture from Unsplash by Wesley Tingey, Free to use under the Unsplash License*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+h2 {
+
+    color: #c000d1;
+    font-weight: 100;
+    font-size: 2.5rem;
+
+
+}
+
+.lead {
+
+
+    line-height: 2;
+}
+
+
+/* Lists */
+
+.prices, .locationlist {
+
+    line-height: 2;
+    list-style-type: none;
+
+} 
+
+/* Background Smaller Images */
+
+
+.text-bg {
+
+    background-color: #10002b;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    border-radius: 2%;
+    margin-top: 1.5rem;
+    padding: 1rem;
+
+}
+
+/* Google Map Location Example*/
+
+.map-responsive{
+
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+}
+
+/* Form background and button transaction*/
+ 
+.form-control {
+
+    color: white;
+    background-color: #170733c0;
+}
+
+.btn {
+
+    color: white;
+    background-color: #5b1881;
+}
+
+.btn:hover {
+    
+    color: white;
+
+}
+
+
+/* Footer */
+/* Social network links */
+
+.footer-links li {
+
+    display: inline-block;
+    line-height: 2;
+    list-style-type: none;
+    padding-left: 1.7em;
+}
+
+.footer-links a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-links a:hover {
+
+    color: red;
+    text-decoration: none;
+
+}
+
+.credits {
+
+    font-style: italic;
+
+}
